@@ -1,0 +1,176 @@
+{
+  "cantidad": 24,
+  "inicio": 0,
+  "parametros": {},
+  "golosinas": [
+    {
+      "id": "1",
+      "nombre": "Chocolatinas",
+      "descripcion": "Deliciosas chocolatinas con relleno de caramelo.",
+      "precio": 1.99,
+      "imagen": "fotos/Chocolatinas.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Gomitas de Frutas",
+      "descripcion": "Gomitas de sabores variados, perfectas para los amantes de las frutas.",
+      "precio": 2.49,
+      "imagen": "fotos/Gomitas de Frutas.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Paletas de Caramelo",
+      "descripcion": "Paletas de caramelo en diferentes colores y sabores.",
+      "precio": 0.99,
+      "imagen": "fotos/Paletas de Caramelo.png"
+    },
+    {
+      "id": "4",
+      "nombre": "Malvaviscos",
+      "descripcion": "Malvaviscos suaves y esponjosos, ideales para asar en fogatas.",
+      "precio": 1.29,
+      "imagen": "fotos/Malvaviscos.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Barritas de Chocolate",
+      "descripcion": "Barritas de chocolate con trozos de nueces y almendras.",
+      "precio": 1.79,
+      "imagen": "fotos/Barritas de Chocolate.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Chicles de Menta",
+      "descripcion": "Chicles refrescantes de menta, sin azúcar.",
+      "precio": 2.99,
+      "imagen": "fotos/Chicles de Menta.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Pastillas de Caramelo",
+      "descripcion": "Pastillas de caramelo en envases individuales.",
+      "precio": 0.89,
+      "imagen": "fotos/Pastillas de Caramelo.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Bombones de Chocolate",
+      "descripcion": "Bombones rellenos de crema de avellana y cubiertos de chocolate negro.",
+      "precio": 2.49,
+      "imagen": "fotos/BombonesDeChocolate.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Galletas Rellenas",
+      "descripcion": "Galletas rellenas de crema de vainilla.",
+      "precio": 1.49,
+      "imagen": "fotos/Galletas Rellenas.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Caramelos de Frutas",
+      "descripcion": "Caramelos duros de sabores frutales surtidos.",
+      "precio": 1.29,
+      "imagen": "fotos/Caramelos de Frutas.jpg"
+    },
+    {
+      "id": "11",
+      "nombre": "Galletas de Chocolate",
+      "descripcion": "Galletas de chocolate con chips de chocolate.",
+      "precio": 1.99,
+      "imagen": "fotos/Galletas de Chocolate.jpg"
+    },
+    {
+      "id": "12",
+      "nombre": "Paletas de Chocolate",
+      "descripcion": "Paletas de chocolate con leche y nueces.",
+      "precio": 1.79,
+      "imagen": "fotos/PaletasdeChocolate.jpg"
+    },
+    {
+      "id": "13",
+      "nombre": "Turrón de Nuez",
+      "descripcion": "Turrón de nueces y miel, un clásico en Navidad.",
+      "precio": 2.99,
+      "imagen": "fotos/Turrón de Nuez.jpg"
+    },
+    {
+      "id": "14",
+      "nombre": "Caramelos de Leche",
+      "descripcion": "Caramelos de leche suaves y dulces.",
+      "precio": 1.29,
+      "imagen": "fotos/Caramelos de Leche.jpg"
+    },
+    {
+      "id": "15",
+      "nombre": "Chocolate Caliente",
+      "descripcion": "Polvo para preparar chocolate caliente cremoso.",
+      "precio": 3.49,
+      "imagen": "fotos/Chocolate Caliente.jpg"
+    },
+    {
+      "id": "16",
+      "nombre": "Galletas de Avena",
+      "descripcion": "Galletas de avena con trozos de frutas secas.",
+      "precio": 2.29,
+      "imagen": "fotos/Galletas de Avena.png"
+    },
+    {
+      "id": "17",
+      "nombre": "Caramelos de Miel",
+      "descripcion": "Caramelos de miel natural con propiedades beneficiosas para la garganta.",
+      "precio": 1.99,
+      "imagen": "fotos/Caramelos de Miel.jpg"
+    },
+    {
+      "id": "18",
+      "nombre": "Bombones de Cereza",
+      "descripcion": "Bombones rellenos de crema de cereza y cubiertos de chocolate blanco.",
+      "precio": 2.49,
+      "imagen": "fotos/Bombones de Cereza.jpg"
+    },
+    {
+      "id": "19",
+      "nombre": "Chocolates Artesanales",
+      "descripcion": "Chocolates elaborados de forma artesanal con ingredientes de alta calidad.",
+      "precio": 3.99,
+      "imagen": "fotos/Chocolates Artesanales.jpg"
+    },
+    {
+      "id": "20",
+      "nombre": "Galletas de Jengibre",
+      "descripcion": "Galletas con sabor a jengibre, ideales para la temporada navideña.",
+      "precio": 2.79,
+      "imagen": "fotos/Galletas de Jengibre.jpg"
+    },
+    {
+      "id": "21",
+      "nombre": "Chocolates Sin Azúcar",
+      "descripcion": "Chocolates sin azúcar para quienes buscan opciones más saludables.",
+      "precio": 2.99,
+      "imagen": "fotos/Chocolates Sin Azúcar.jpg"
+    },
+    {
+      "id": "22",
+      "nombre": "Palomitas de Maíz Dulces",
+      "descripcion": "Palomitas de maíz cubiertas de caramelo y chocolate.",
+      "precio": 1.79,
+      "imagen": "fotos/Palomitas de Maíz Dulces.jpg"
+    },
+    {
+      "id": "23",
+      "nombre": "Gomitas Ácidas",
+      "descripcion": "Gomitas de sabores ácidos para quienes buscan un toque de acidez.",
+      "precio": 1.99,
+      "imagen": "fotos/Gomitas Ácidas.jpg"
+    },
+    {
+      "id": "24",
+      "nombre": "Chocolates de Menta",
+      "descripcion": "Chocolates rellenos de crema de menta, perfectos después de la comida.",
+      "precio": 2.49,
+      "imagen": "fotos/Chocolates de Menta.jpg"
+    }
+  ],
+  "total": 24
+}
