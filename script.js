@@ -1,6 +1,6 @@
 
 fetch("golosinas.json")
-fetch(".golosinas.json")
+fetch("/golosinas.jason")
 
   .then((respuesta) => respuesta.json())
   .then((datos) => localStorage.setItem("golosinas", JSON.stringify(datos)));
