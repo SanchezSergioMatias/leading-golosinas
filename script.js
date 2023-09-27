@@ -1,9 +1,11 @@
 
 fetch("golosinas.json")
-fetch("/golosinas.jason")
+fetch("/golosinas.json")
 
   .then((respuesta) => respuesta.json())
   .then((datos) => localStorage.setItem("golosinas", JSON.stringify(datos)));
+
+ 
 
 document.addEventListener("DOMContentLoaded", () => {
   const gridGolosinas = document.getElementById("grid-golosinas");
@@ -26,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+localStorage.setItem("provincias", JSON.stringify(datos));
 function mostrarDetallesGolosina(golosina) {
   window.location.href = `golosina.html?id=${golosina.id}`;
 }
