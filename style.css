@@ -1,37 +1,63 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "comics", sans-serif;
-  background-color: #fde4b7;
+  font-family: "Arial", sans-serif;
+  background-image: url('https://media.istockphoto.com/id/917606744/es/foto/candy-de-fondo.jpg?s=612x612&w=0&k=20&c=IWz3RgSc-WJ6TUJpGI2Qw_9wqgOaNTLQtQhjHTBr9a0='); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Para que la imagen de fondo se mantenga fija al desplazarse */
+  color: #fff; /* Cambia el color del texto para que sea legible en la imagen de fondo */
 }
+
 
 h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 68px;
   color: #331c72;
   margin: 40px 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  font-family: "Franklin Gothic Medium";
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: color 0.3s ease-in-out; /* Agregar transición al color del texto */
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
   padding: 20px;
   justify-content: center;
+  transition: transform 0.2s ease-in-out; /* Agregar transición a la transformación */
 }
 
 .grid-item {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(56, 7, 7);
+  border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .grid-item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(119, 155, 22); /* Cambiar el color de fondo al pasar el cursor */
 }
+
+h1:hover {
+  color: #ff4500; /* Cambiar el color del título al pasar el cursor */
+}
+
+/* Agregar animación al fondo del cuerpo */
+body:hover {
+  background-color: #fcf5c7;
+}
+

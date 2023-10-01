@@ -6,8 +6,20 @@
   max-width: 600px;
   margin: 20px auto;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.detalles-golosina h2 {
+  font-size: 34px;
+  color: #720909;
+  margin-bottom: 10px;
+}
+.detalles-golosina p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+  font-family: monospace;
+  font-weight: bold;
+}
 a {
   display: inline-block;
   text-align: center;

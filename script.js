@@ -1,11 +1,7 @@
-
-fetch("golosinas.json")
+fetch("golosinas.json");
 fetch("/golosinas.json")
-
   .then((respuesta) => respuesta.json())
   .then((datos) => localStorage.setItem("golosinas", JSON.stringify(datos)));
-
- 
 
 document.addEventListener("DOMContentLoaded", () => {
   const gridGolosinas = document.getElementById("grid-golosinas");
